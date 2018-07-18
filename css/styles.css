@@ -36,17 +36,20 @@ body {
     clear: right;
 }
 
-
-/*.header {
+.header {
+    float: left;
     color: #000000;
-    font-size: 34px;
-    margin-top: 50px;
-}*/
+    font-size: 25px;
+    display: block;
+    margin-top: 150px;
+    margin-left: 28px;
+    margin-bottom: 0px;
+}
 
 .paragraph {
     float: left;
     width: 513px;
-    margin-top: 250px;
+    margin-top: 2px;
     margin-right: 0;
     margin-left: 28px;
     padding-top: 0%;
@@ -63,7 +66,7 @@ body {
     height: 130px;
     width: 130px;
     background-color: rgba(207, 130, 213, 0.6);
-    margin-left: 600px;
+    margin-left: 925px;
     margin-top: 260px
 }
 
@@ -75,7 +78,7 @@ body {
     width: 300px;
     background-color: rgba(247, 136, 167, 0.6);
     margin-top: 175px;
-    margin-left: 325px;
+    margin-left: 665px;
 }
 
 .circle3 {
@@ -85,7 +88,7 @@ body {
     height: 200px;
     width: 200px;
     background-color: rgba(247, 193, 162, 0.7);
-    margin-left: 530px;
+    margin-left: 860px;
     margin-top: 350px;
 }
 
@@ -97,4 +100,5 @@ body {
     color: #f9fafc;
     border-radius: 25px 25px 25px 25px;
     padding: 10px 40px 10px 40px;
+    margin-left: 25%;
 }
