@@ -5,10 +5,13 @@ body {
 }
 
 .brand {
+    float: left;
     position: absolute;
-    margin-left: 28px;
-    font-size: 15px;
-    color: #69696a;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #000000;
+    clear: left;
 }
 
 .contact,
@@ -24,12 +27,9 @@ body {
 
 .hire {
     float: right;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    margin-right: 10px;
-    color: white;
+    padding: 10px 40px 10px 40px;
+    margin-right: 32px;
+    color: #f9fafc;
     background-color: #000000;
     font-size: 15px;
     border-radius: 25px 25px 25px 25px;
@@ -63,6 +63,8 @@ body {
     height: 130px;
     width: 130px;
     background-color: rgba(207, 130, 213, 0.6);
+    margin-left: 600px;
+    margin-top: 260px
 }
 
 .circle2 {
@@ -72,6 +74,8 @@ body {
     height: 300px;
     width: 300px;
     background-color: rgba(247, 136, 167, 0.6);
+    margin-top: 175px;
+    margin-left: 325px;
 }
 
 .circle3 {
@@ -80,5 +84,17 @@ body {
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-color: rgba(247, 193, 162, 0.7)
+    background-color: rgba(247, 193, 162, 0.7);
+    margin-left: 530px;
+    margin-top: 350px;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #000000;
+    color: #f9fafc;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px 40px 10px 40px;
 }
