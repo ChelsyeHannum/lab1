@@ -1,11 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f9fafc;
     font-family: 'Open Sans', sans-serif;
 }
 
 h4 {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     font-size: 18px;
     color: #000000;
     margin: 8px 8px 15px 8px;
@@ -25,6 +30,7 @@ a.hire {
     background-color: #000000;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding: 10px;
     border-radius: 25px 25px 25px 25px;
     font-size: 20px;
     text-decoration: none;
@@ -71,10 +77,10 @@ a {
         display: flex;
         flex-direction: row;
     }
-    .hire {
+    /* .hire {
         display: flex;
         flex-direction: row;
-    }
+    } */
     .column-2 {
         display: flex;
         justify-content: flex-end;
